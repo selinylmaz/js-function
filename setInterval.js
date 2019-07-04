@@ -2,3 +2,9 @@
 setInterval(function(){
     console.log("selam")
 },3000);
+//sayi degerini arttırdı 1 sn de bir
+var sayi=1;
+setInterval(function(){
+    console.log("selam"+sayi);
+    sayi++;
+},1000);
