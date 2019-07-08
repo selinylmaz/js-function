@@ -1,4 +1,4 @@
-function birinci(){
+function birinci(callback){
     setTimeout(function(){
         console.log("birinci");
     },1000)
